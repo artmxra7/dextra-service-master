@@ -1,0 +1,34 @@
+// Bootstrap
+@import "node_modules/admin-lte/bootstrap/css/bootstrap";
+@import "node_modules/font-awesome/scss/font-awesome";
+@import "node_modules/admin-lte/plugins/select2/select2";
+@import "node_modules/admin-lte/dist/css/AdminLTE";
+@import "node_modules/admin-lte/dist/css/skins/skin-blue";
+
+.cropit-preview {
+  /* You can specify preview size in CSS */
+  width: 500px;
+  height: 300px;
+  background: grey;
+}
+.cropit-image-zoom-input {
+  width: 500px !important;
+}
+
+/* Translucent background image */
+.cropit-preview-background {
+  opacity: .2;
+}
+
+/*
+ * If the slider or anything else is covered by the background image,
+ * use relative or absolute position on it
+ */
+input.cropit-image-zoom-input {
+  position: relative;
+}
+
+/* Limit the background image by adding overflow: hidden */
+#image-cropper {
+  overflow: hidden;
+}

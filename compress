@@ -1,0 +1,3 @@
+#!/bin/bash
+zip -r deploy.zip app resources routes public
+cp -r deploy.zip ~/Downloads
